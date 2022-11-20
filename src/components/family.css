@@ -1,0 +1,22 @@
+.members-wrapper {
+  max-width: 100vh;
+  margin: 0 auto;
+  background-color: #4b945a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.member {
+  background-color: white;
+  color: #333;
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+.member:hover {
+  background-color: #eb3609;
+  color: white;
+}

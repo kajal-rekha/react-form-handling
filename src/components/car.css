@@ -1,0 +1,28 @@
+.cars-wrapper {
+  max-width: 70vh;
+  margin: 0 auto;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.car {
+  background-color: white;
+  color: #333;
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+.car:hover {
+  background-color: #444;
+  color: crimson;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
